@@ -7,6 +7,8 @@ const Container = styled.div`
     justify-content: space-between;
     background-color: #181f2e;
     padding: 0.5rem;
+    position: sticky;
+    top: 0;
 `;
 
 const Logo = styled.span`

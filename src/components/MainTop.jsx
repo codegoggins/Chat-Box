@@ -10,6 +10,8 @@ const Container  = styled.div`
   padding: 0.5rem;
   background-color: #181f2e;
   border-left: 1px solid #ffffff;
+  position: sticky;
+  top: 0;
 `
 
 const CallItems = styled.div`

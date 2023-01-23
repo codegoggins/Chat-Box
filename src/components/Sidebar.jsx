@@ -8,6 +8,7 @@ const Container = styled.div`
    background-color: #ebf4fb;
    height: 100%;
    flex: 3;
+   position: relative;
    overflow-y: scroll;
 
    ::-webkit-scrollbar{

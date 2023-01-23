@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ChatSection from './ChatSection';
 import MainTop from './MainTop';
 
 
@@ -18,6 +19,7 @@ const Main = () => {
   return (
     <Container>
       <MainTop/>
+      <ChatSection/>
     </Container>
   )
 }
