@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ChatSection from './ChatSection';
+import Input from './Input';
 import MainTop from './MainTop';
 
 
@@ -20,6 +21,7 @@ const Main = () => {
     <Container>
       <MainTop/>
       <ChatSection/>
+      <Input/>
     </Container>
   )
 }
