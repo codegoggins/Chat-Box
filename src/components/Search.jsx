@@ -10,7 +10,7 @@ const Input = styled.input`
   background-color: #ffffff;
   border: none;
   padding: 0.4rem 0.5rem;
-  width: 21rem;
+  width: 20.6rem;
   border-radius: 0.3rem;
    &:focus{
     outline: none;

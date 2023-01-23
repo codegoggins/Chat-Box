@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import MainTop from './MainTop';
+
 
 const Container = styled.div`
    background-color: #ffffff;
@@ -14,7 +16,9 @@ const Container = styled.div`
 
 const Main = () => {
   return (
-    <Container>Main</Container>
+    <Container>
+      <MainTop/>
+    </Container>
   )
 }
 
